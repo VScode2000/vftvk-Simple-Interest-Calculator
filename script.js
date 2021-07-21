@@ -3,7 +3,7 @@ function validateAmount(){
     var principal = document.getElementById("principal").value;
     var greaterthanzero=parseFloat(principal)>0;
     if(!greaterthanzero){
-        alert("Enter a value greater than zero");
+        alert("Enter a positive number");
         document.getElementById("principal").focus();
     }
 }
